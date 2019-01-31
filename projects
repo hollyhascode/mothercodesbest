@@ -1,1 +1,61 @@
 
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+  .about-flex {
+  display: flex; 
+    flex-direciton: row; 
+    justify-content: space-around; 
+  }
+  .about-flex-item img {
+    width: 50%; 
+    max-width: 400px; 
+    border-radius: 4px 140px 70px 100px; 
+    padding-right: 5%; 
+  }
+  
+  .about-flex-item {
+  width: 50%; 
+  
+  }
+  
+  </style> 
+  
+  <link rel="stylesheet" type="text/css" href="https://hollyhascode.github.io/mothercodesbest/css/main.css">
+</head>
+<body> 
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+  <a href="https://hollyhascode.github.io/mothercodesbest/about-holly.html">About Me</a>
+  <a href="https://hollyhascode.github.io/mothercodesbest/mothercodesbest/resources.html">Resources</a>
+  <a href="#">My Blog</a>
+  <a href="https://hollyhascode.github.io/mothercodesbest/projects">Projects</a>
+</div>
+<div>
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; 
+  <img style="height: 100px;" src="https://hollyhascode.github.io/mothercodesbest/images/menu-nav-cup.png">
+  
+  </span>
+  <h1>My Adventures in Coding, Adobe Suite, UX & Whatever Bosses Tell Me To Do!</h1> 
+ <div class="about-flex"> 
+<div class="about-flex-item"> 
+<div class="about-flex-item"> 
+   <p>With nearly 10 years of experience working in digital marketing, I've served every role from content writer to web developer.</p>  
+    <p>It's been a long journey to finally find my niche, but I feel my experience allows me to see the bigger picture when approaching 
+    projects.</p> 
+    <p>Here are some of my projects - some are professoinal others were just to learn stuff. This is my favorite part of part of the website, 
+    because it gives me an excuse to geek out doing what I love> </p> 
+  </div> 
+  </div> 
+<Script> 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  </script> 
+</body>
+</html>
