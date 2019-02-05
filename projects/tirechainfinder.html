@@ -1,1 +1,69 @@
 
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+  .about-flex {
+  display: flex; 
+    flex-direciton: row; 
+    justify-content: space-around; 
+  }
+  .about-flex-item img {
+    width: 50%; 
+    max-width: 400px; 
+    border-radius: 4px 140px 70px 100px; 
+    padding-right: 5%; 
+  }
+  
+  .about-flex-item {
+  width: 50%; 
+  
+  }
+  
+  </style> 
+  
+  <link rel="stylesheet" type="text/css" href="https://hollyhascode.github.io/mothercodesbest/css/main.css">
+</head>
+<body> 
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+  <a href="https://hollyhascode.github.io/mothercodesbest/about-holly.html">About Me</a>
+  <a href="https://hollyhascode.github.io/mothercodesbest/mothercodesbest/resources.html">Resources</a>
+  <a href="#">My Blog</a>
+  <a href="https://hollyhascode.github.io/mothercodesbest/projects.html">Projects</a>
+</div>
+<div>
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; 
+  <img style="height: 100px;" src="https://hollyhascode.github.io/mothercodesbest/images/menu-nav-cup.png">
+  
+  </span>
+  <h1>Tire Chain Finder</h1> 
+ <div class="about-flex"> 
+<div class="about-flex-item"> 
+<div class="about-flex-item"> 
+   <p>This was a fun project where we wanted to setup an aesthetically attractive and easy-to-use tire chain finder. Unfortunately, the tire chains ended
+  up being too pricey to make sense to sell at the company I work for, but we didn't know this before I built out the project. </p>  
+    <p>I converted an excel file to JSON then used XML and jQuery UI autocomplete to create the search. In addition to functionality, I did the 
+  page layout (not the photographs though). </p> 
+   
+  </div> 
+  </div> 
+  <div class="projects-flex">
+      <div class="project-items"><img src="https://hollyhascode.github.io/mothercodesbest/project/tirechainfinder.png"></div> 
+      <div class="project-items"></div> 
+    
+  </div> 
+  
+  
+<Script> 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  </script> 
+</body>
+</html>
