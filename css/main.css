@@ -1,6 +1,6 @@
 .center-iamge {
 	
-	align-content: center; 
+	text-align: center; 
 }
 
 body, html {
@@ -17,7 +17,7 @@ body, html {
   }
   .about-flex-item img {
     width: 50%; 
-    max-width: 400px; 
+    max-width: 600px; 
     border-radius: 4px 140px 70px 100px; 
     padding-right: 5%; 
   }
