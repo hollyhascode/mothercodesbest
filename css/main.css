@@ -1,9 +1,31 @@
-
+.center-iamge {
+	
+	align-content: center; 
+}
 
 body, html {
   height: 100%;
   margin: 0;
+  padding: 10px; 
+	box-size: border-box; 
 }
+
+  .about-flex {
+  display: flex; 
+    flex-direciton: row; 
+    justify-content: space-around; 
+  }
+  .about-flex-item img {
+    width: 50%; 
+    max-width: 400px; 
+    border-radius: 4px 140px 70px 100px; 
+    padding-right: 5%; 
+  }
+  
+  .about-flex-item {
+  width: 50%; 
+  
+  }
 
 .bg {
   /* The image used */
