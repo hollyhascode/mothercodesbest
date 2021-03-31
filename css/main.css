@@ -23,6 +23,10 @@ body, html {
 background: #f0f0f0; 
 }
 
+.bg span {
+padding: 5%
+}
+
   .about-flex {
   display: flex; 
     flex-direciton: row; 
